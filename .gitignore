@@ -1,0 +1,26 @@
+.DS_Store
+*.swp
+*.tmp
+*.bak
+*~
+
+# Secrets and local-only overrides
+**/.env
+**/.env.*
+!**/.env.example
+**/*credentials*
+**/*secret*
+**/*token*
+**/hosts.yml
+private/
+
+# Histories, caches, generated state, and nested repositories
+**/*history*
+**/.cache/
+**/node_modules/
+**/.git/
+**/*.sqlite*
+**/*.db
+**/*.log
+**/*.zwc*
+

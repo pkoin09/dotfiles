@@ -1,0 +1,7 @@
+registry:
+  context7:
+    ref: ""
+  firecrawl:
+    ref: ""
+  obsidian:
+    ref: ""
